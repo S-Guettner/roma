@@ -150,4 +150,12 @@ header .workersSection .workersTextContainer, section .workersSection .workersTe
   font-size: 1.2rem;
   font-family: "santio";
   color: #7eb8e1;
+}
+
+.footerImg {
+  background: url(../img/kid.png), url(../img/see.png);
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */

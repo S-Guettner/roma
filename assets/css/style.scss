@@ -179,4 +179,10 @@ header,section{
             }
         }
 
-
+.footerImg{
+    background: url(../img/kid.png),url(../img/see.png);
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
