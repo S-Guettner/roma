@@ -93,6 +93,7 @@ header .scrollText span, section .scrollText span {
   width: 0.1rem;
   color: #e7bc0e;
   margin-left: 0.5rem;
+  background-color: transparent;
 }
 header .firstTextSectionText, section .firstTextSectionText {
   width: 90%;
@@ -158,4 +159,42 @@ header .workersSection .workersTextContainer, section .workersSection .workersTe
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.footer {
+  height: 57%;
+  width: 100%;
+  background-color: black;
+}
+.footer .footerText {
+  padding-top: 5rem;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  max-width: 35rem;
+  font-family: "santio";
+  margin-bottom: 4rem;
+}
+.footer .donateButton {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  font-family: "santio";
+  padding: 0.8rem;
+}
+.footer .donateButton:hover {
+  box-shadow: 2px 2px white;
+}
+.footer .endNote {
+  color: white;
+  text-align: center;
+  padding-top: 13.1rem;
+  font-family: "santio";
+  font-size: 0.75rem;
+}
+.footer .endNote span {
+  color: #6bc1a3;
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
