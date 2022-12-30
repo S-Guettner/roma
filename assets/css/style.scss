@@ -35,7 +35,8 @@ body, html {
 
 
 .testFont{
-    color: black;
+    position: absolute;
+    
 }
 
 /* =====header & parallex sections===== */
@@ -50,22 +51,36 @@ header,section{
     width: 100%;
 
 
-        p{
+        .takeActionContainer{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 5vw;
+            top:2%;
+            font-size: 1.5rem;
             color: white;
-            font-size: 3rem;
-            width:20rem;
-            padding-top: 30rem;
-            padding-left: 3rem;
-        }
-
+                
+                .takeAction{
+                    margin-left: 1rem;
+                    text-decoration: underline;
+                    text-decoration-color:$yellow ;
+                }
                 .heartLogo{
-                    width: 3rem;
+                    width: 2rem;
                     display: block;
                     margin-left: auto;
-                    position: relative;
-                    right: 5%;
-                    top: 2%;
                 }
+        }
+
+        .textTop{
+            width: 20rem;
+            font-size: 3rem;
+            color: white;
+            position: absolute;
+            left: 5vw;
+            top: 60vh;
+        }
+
 
             .test{
                 color: black;

@@ -24,7 +24,7 @@ body, html {
 }
 
 .testFont {
-  color: black;
+  position: absolute;
 }
 
 /* =====header & parallex sections===== */
@@ -37,20 +37,33 @@ header, section {
   height: 100%;
   width: 100%;
 }
-header p, section p {
+header .takeActionContainer, section .takeActionContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5vw;
+  top: 2%;
+  font-size: 1.5rem;
   color: white;
-  font-size: 3rem;
-  width: 20rem;
-  padding-top: 30rem;
-  padding-left: 3rem;
 }
-header .heartLogo, section .heartLogo {
-  width: 3rem;
+header .takeActionContainer .takeAction, section .takeActionContainer .takeAction {
+  margin-left: 1rem;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e7bc0e;
+          text-decoration-color: #e7bc0e;
+}
+header .takeActionContainer .heartLogo, section .takeActionContainer .heartLogo {
+  width: 2rem;
   display: block;
   margin-left: auto;
-  position: relative;
-  right: 5%;
-  top: 2%;
+}
+header .textTop, section .textTop {
+  width: 20rem;
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  left: 5vw;
+  top: 60vh;
 }
 header .test, section .test {
   color: black;
