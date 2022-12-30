@@ -33,6 +33,14 @@ body, html {
     height: 100%;
 }
 
+.smallerFont{
+    font-size: 1.5rem;
+}
+span{
+    padding-bottom:0.2rem ;
+    color: white;
+    background-color:#29272a;
+}
 
 .testFont{
     position: absolute;
@@ -107,8 +115,7 @@ header,section{
             font-size: 2rem;
             color:$green ;
         }
-        .domesticWorkers{
-
+        .workersSection{
 
             img{
                 width: 12rem;
@@ -116,28 +123,60 @@ header,section{
                 left:5vw ;
             }
 
-            .domesticWorkersTextContainer{
+            .workersTextContainer{
                 padding-top: 20rem;
-                text-align: center;
                 max-width: 80%;
                 font-size: 6rem;
                 margin: auto;
                 color: $yellow;
                 font-family:"santio";
-
-                    .smallerFont{
-                        font-size: 1.5rem;
-
-                            span{
-                                padding-bottom:0.2rem ;
-                                color: white;
-                                background-color:#29272a;
-                            }
-                    }
+                }
             }
         }
         .wageSection{
-            
+
+            img{
+                width: 12rem;
+                position: absolute;
+                left: 5vw;
+            }
+
+            .wageTextContainer{
+                padding-top: 20rem;
+                max-width: 80%;
+                font-size: 6rem;
+                margin: auto;
+                color: $pink;
+                font-family:"santio";
+            }
         }
-}
+
+        .healthSection{
+
+            img{
+                width: 12rem;
+                position: absolute;
+                left: 5vw;
+            }
+
+            .healthTextContainer{
+                padding-top: 18rem;
+                max-width: 80%;
+                font-size: 6rem;
+                margin: auto;
+                color: $green;
+                font-family:"santio";
+                margin-bottom: 5rem;
+            }
+
+            .textBottom{
+                padding-left: 4rem;
+                line-height: 1.5;
+                font-size:1.2rem ;
+                font-family: "santio";
+                color: $blue;
+
+            }
+        }
+
 

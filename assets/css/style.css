@@ -23,6 +23,16 @@ body, html {
   height: 100%;
 }
 
+.smallerFont {
+  font-size: 1.5rem;
+}
+
+span {
+  padding-bottom: 0.2rem;
+  color: white;
+  background-color: #29272a;
+}
+
 .testFont {
   position: absolute;
 }
@@ -92,25 +102,52 @@ header .firstTextSectionText, section .firstTextSectionText {
   font-size: 2rem;
   color: #6bc1a3;
 }
-header .domesticWorkers img, section .domesticWorkers img {
+header .workersSection img, section .workersSection img {
   width: 12rem;
   position: absolute;
   left: 5vw;
 }
-header .domesticWorkers .domesticWorkersTextContainer, section .domesticWorkers .domesticWorkersTextContainer {
+header .workersSection .workersTextContainer, section .workersSection .workersTextContainer {
   padding-top: 20rem;
-  text-align: center;
   max-width: 80%;
   font-size: 6rem;
   margin: auto;
   color: #e7bc0e;
   font-family: "santio";
 }
-header .domesticWorkers .domesticWorkersTextContainer .smallerFont, section .domesticWorkers .domesticWorkersTextContainer .smallerFont {
-  font-size: 1.5rem;
+
+.wageSection img {
+  width: 12rem;
+  position: absolute;
+  left: 5vw;
 }
-header .domesticWorkers .domesticWorkersTextContainer .smallerFont span, section .domesticWorkers .domesticWorkersTextContainer .smallerFont span {
-  padding-bottom: 0.2rem;
-  color: white;
-  background-color: #29272a;
+.wageSection .wageTextContainer {
+  padding-top: 20rem;
+  max-width: 80%;
+  font-size: 6rem;
+  margin: auto;
+  color: #cb91b6;
+  font-family: "santio";
+}
+
+.healthSection img {
+  width: 12rem;
+  position: absolute;
+  left: 5vw;
+}
+.healthSection .healthTextContainer {
+  padding-top: 18rem;
+  max-width: 80%;
+  font-size: 6rem;
+  margin: auto;
+  color: #6bc1a3;
+  font-family: "santio";
+  margin-bottom: 5rem;
+}
+.healthSection .textBottom {
+  padding-left: 4rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: "santio";
+  color: #7eb8e1;
 }/*# sourceMappingURL=style.css.map */
