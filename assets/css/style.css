@@ -33,10 +33,32 @@ span {
   background-color: #29272a;
 }
 
-.testFont {
-  position: absolute;
+/* =====media queries */
+@media only screen and (min-width: 1000px) {
+  header section .textTop {
+    font-size: 4rem;
+    width: 20rem;
+  }
+  header section .scrollText {
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+  header section .firstTextSectionText {
+    font-size: 3rem;
+  }
+  header section article .workersTextContainer {
+    font-size: 8rem;
+  }
+  header section .wageTextContainer {
+    font-size: 8rem;
+  }
+  header section .healthTextContainer {
+    font-size: 8rem;
+  }
+  header section .textBottom {
+    width: 60rem;
+  }
 }
-
 /* =====header & parallex sections===== */
 header, section {
   background: url(../img/cleo-topper.jpg);
@@ -146,13 +168,14 @@ header .workersSection .workersTextContainer, section .workersSection .workersTe
   margin-bottom: 5rem;
 }
 .healthSection .textBottom {
-  padding-left: 4rem;
+  padding-left: 3.1rem;
   line-height: 1.5;
   font-size: 1.2rem;
   font-family: "santio";
   color: #7eb8e1;
 }
 
+/* ===== footer section ===== */
 .footerImg {
   background: url(../img/kid.png), url(../img/see.png);
   height: 80%;
