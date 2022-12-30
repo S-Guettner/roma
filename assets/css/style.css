@@ -1,0 +1,58 @@
+/* =====fonts===== */
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "santio";
+  src: url(../fonts/santio/SANTIO/TTF/Santio\ Bold.ttf);
+}
+@font-face {
+  font-family: "tangerine";
+  src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+/* =====colors===== */
+/* =====global===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.testFont {
+  color: black;
+}
+
+/* =====header & parallex sections===== */
+header, section {
+  background: url(../img/cleo-topper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+header p, section p {
+  color: white;
+  font-size: 3rem;
+  width: 20rem;
+  padding-top: 30rem;
+  padding-left: 3rem;
+}
+header .heartLogo, section .heartLogo {
+  width: 3rem;
+  display: block;
+  margin-left: auto;
+  position: relative;
+  right: 5%;
+  top: 2%;
+}
+header .test, section .test {
+  color: black;
+  /* background-color: transparent; */
+}/*# sourceMappingURL=style.css.map */

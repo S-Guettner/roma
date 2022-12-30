@@ -1,0 +1,75 @@
+/* =====fonts===== */
+
+@font-face {
+    font-family:"roboto" ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:"santio" ;
+    src: url(../fonts/santio/SANTIO/TTF/Santio\ Bold.ttf);
+}
+@font-face {
+    font-family:"tangerine" ;
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+/* =====colors===== */
+
+$yellow:#e7bc0e;
+$grey:#efefef;
+$green:#6bc1a3;
+$pink:#cb91b6;
+$blue:#7eb8e1;
+
+/* =====global===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.testFont{
+    color: black;
+}
+
+/* =====header & parallex sections===== */
+
+header,section{
+    background: url(../img/cleo-topper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+
+        p{
+            color: white;
+            font-size: 3rem;
+            width:20rem;
+            padding-top: 30rem;
+            padding-left: 3rem;
+        }
+
+                .heartLogo{
+                    width: 3rem;
+                    display: block;
+                    margin-left: auto;
+                    position: relative;
+                    right: 5%;
+                    top: 2%;
+                }
+
+            .test{
+                color: black;
+                /* background-color: transparent; */
+            }
+}
+
