@@ -56,17 +56,31 @@ span{
     header section .firstTextSectionText{
         font-size: 3rem;
     }
-    header section article .workersTextContainer{
-        font-size: 8rem;
+    #workers{
+        font-size: 6rem;
     }
-    header section .wageTextContainer{
-        font-size: 8rem;
+    #wage{
+        font-size: 6rem;
     }
-    header section .healthTextContainer{
-        font-size: 8rem;
+    #health{
+        font-size: 6rem;
     }
-    header section .textBottom{
-        width: 60rem;
+    #bottomText{
+        width: 50rem;
+        font-size:2rem ;
+    }
+    #textFooter{
+        font-size: 4rem;
+        padding-top:2.5rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    #button{
+        margin-left:48rem;
+    }
+    #note{
+        padding-top: 8rem;
+        font-size: 1rem;
     }
 }
 
@@ -200,7 +214,7 @@ header,section{
                 font-size:1.2rem ;
                 font-family: "santio";
                 color: $blue;
-
+                width: 20rem;
             }
         }
 
@@ -234,7 +248,7 @@ header,section{
         color: white;
         text-decoration: none;
         border: 1px solid white;
-        margin-left: 4rem;
+        margin-left: 10rem;
         font-size: 1.2rem;
         font-family: "santio";
         padding: 0.8rem;
