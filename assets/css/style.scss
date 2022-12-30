@@ -63,7 +63,10 @@ header,section{
                 .takeAction{
                     margin-left: 1rem;
                     text-decoration: underline;
-                    text-decoration-color:$yellow ;
+                    font-family: "roboto";
+                    font-weight: bold;
+                    text-decoration-color:$yellow;
+                    text-underline-offset: 0.5rem;
                 }
                 .heartLogo{
                     width: 2rem;
@@ -71,20 +74,30 @@ header,section{
                     margin-left: auto;
                 }
         }
-
         .textTop{
-            width: 20rem;
+            width: 15rem;
             font-size: 3rem;
             color: white;
             position: absolute;
             left: 5vw;
             top: 60vh;
+            font-family: "santio";
         }
-
-
-            .test{
-                color: black;
-                /* background-color: transparent; */
-            }
+        .scrollText{
+            color:$yellow;
+            font-family: "tangerine";
+            font-size: 4rem;
+            font-weight:500;
+            position: absolute;
+            left: 5vw;
+                
+                span{
+                    font-family: "roboto";
+                    font-size: 1rem;
+                    width: 0.1rem;
+                    color: $yellow;
+                    margin-left: 0.5rem;
+                }
+        }
 }
 

@@ -49,8 +49,11 @@ header .takeActionContainer, section .takeActionContainer {
 header .takeActionContainer .takeAction, section .takeActionContainer .takeAction {
   margin-left: 1rem;
   text-decoration: underline;
+  font-family: "roboto";
+  font-weight: bold;
   -webkit-text-decoration-color: #e7bc0e;
           text-decoration-color: #e7bc0e;
+  text-underline-offset: 0.5rem;
 }
 header .takeActionContainer .heartLogo, section .takeActionContainer .heartLogo {
   width: 2rem;
@@ -58,14 +61,26 @@ header .takeActionContainer .heartLogo, section .takeActionContainer .heartLogo 
   margin-left: auto;
 }
 header .textTop, section .textTop {
-  width: 20rem;
+  width: 15rem;
   font-size: 3rem;
   color: white;
   position: absolute;
   left: 5vw;
   top: 60vh;
+  font-family: "santio";
 }
-header .test, section .test {
-  color: black;
-  /* background-color: transparent; */
+header .scrollText, section .scrollText {
+  color: #e7bc0e;
+  font-family: "tangerine";
+  font-size: 4rem;
+  font-weight: 500;
+  position: absolute;
+  left: 5vw;
+}
+header .scrollText span, section .scrollText span {
+  font-family: "roboto";
+  font-size: 1rem;
+  width: 0.1rem;
+  color: #e7bc0e;
+  margin-left: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
