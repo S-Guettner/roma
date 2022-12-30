@@ -83,4 +83,34 @@ header .scrollText span, section .scrollText span {
   width: 0.1rem;
   color: #e7bc0e;
   margin-left: 0.5rem;
+}
+header .firstTextSectionText, section .firstTextSectionText {
+  width: 90%;
+  margin: auto;
+  line-height: 1.5;
+  font-family: "santio";
+  font-size: 2rem;
+  color: #6bc1a3;
+}
+header .domesticWorkers img, section .domesticWorkers img {
+  width: 12rem;
+  position: absolute;
+  left: 5vw;
+}
+header .domesticWorkers .domesticWorkersTextContainer, section .domesticWorkers .domesticWorkersTextContainer {
+  padding-top: 20rem;
+  text-align: center;
+  max-width: 80%;
+  font-size: 6rem;
+  margin: auto;
+  color: #e7bc0e;
+  font-family: "santio";
+}
+header .domesticWorkers .domesticWorkersTextContainer .smallerFont, section .domesticWorkers .domesticWorkersTextContainer .smallerFont {
+  font-size: 1.5rem;
+}
+header .domesticWorkers .domesticWorkersTextContainer .smallerFont span, section .domesticWorkers .domesticWorkersTextContainer .smallerFont span {
+  padding-bottom: 0.2rem;
+  color: white;
+  background-color: #29272a;
 }/*# sourceMappingURL=style.css.map */

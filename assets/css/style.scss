@@ -99,5 +99,45 @@ header,section{
                     margin-left: 0.5rem;
                 }
         }
+        .firstTextSectionText{
+            width: 90%;
+            margin: auto;
+            line-height: 1.5;
+            font-family: "santio";
+            font-size: 2rem;
+            color:$green ;
+        }
+        .domesticWorkers{
+
+
+            img{
+                width: 12rem;
+                position: absolute;
+                left:5vw ;
+            }
+
+            .domesticWorkersTextContainer{
+                padding-top: 20rem;
+                text-align: center;
+                max-width: 80%;
+                font-size: 6rem;
+                margin: auto;
+                color: $yellow;
+                font-family:"santio";
+
+                    .smallerFont{
+                        font-size: 1.5rem;
+
+                            span{
+                                padding-bottom:0.2rem ;
+                                color: white;
+                                background-color:#29272a;
+                            }
+                    }
+            }
+        }
+        .wageSection{
+            
+        }
 }
 
